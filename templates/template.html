@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <meta http-equiv="refresh" content="5" />
+  </head>
+  <body>
+    <div class="container">
+      {{$value := .}}
+      <h2>Water Level: {{$value.Water}} m</h2>
+      <h2>Water Status: {{$value.WaterStatus}}</h2>
+      <h2>Wind Level: {{$value.Wind}} m/s</h2>
+      <h2>Wind Status: {{$value.WindStatus}}</h2>
+    </div>
+  </body>
+</html>
